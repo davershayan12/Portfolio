@@ -1,16 +1,40 @@
 import Image from "next/image";
+import * as motion from "motion/react-client";
 import Header from "@/componets/header";
+import { easeInOut } from "motion";
 export default function Home() {
   return (
     <>
     <Header />
 
 
-   <div className="mt-30 mx-9 rounded-4xl bg-gradient-to-br font-[sinosans] text-center from-blue-600 to-blue-950 p-8 text-6xl  h-96 ">
-    <h1 >
-      Hi
-      <br />I am Daver </h1>
-   </div>
+   <motion.div className="bg-blue-900 font-[sinosans] p-8 text-6xl  h-6 " animate={{width:["0%","100%"]}} transition={{duration:2,ease:"easeOut"}}>
+
+   </motion.div>
+   <motion.div className="bg-blue-900 font-[sinosans] p-8 text-6xl  h-6 " animate={{width:["0%","100%"]}} transition={{duration:2,ease:"easeOut",delay:.2}}>
+
+   </motion.div>
+   <motion.div className="bg-blue-900 font-[sinosans] p-8 text-6xl  h-6 " animate={{width:["0%","100%"]}} transition={{duration:2,ease:"easeOut",delay:.4}}>
+
+   </motion.div>
+   <motion.div className="bg-blue-900 font-[sinosans] p-8 text-6xl  h-6 " animate={{width:["0%","100%"]}} transition={{duration:2,ease:"easeOut",delay:.6}}>
+
+   </motion.div>
+   <motion.div className="bg-blue-900 font-[sinosans] p-8 text-6xl  h-6 " animate={{width:["0%","100%"]}} transition={{duration:2,ease:"easeOut",delay:.8}}>
+
+   </motion.div>
+   <motion.div className="bg-blue-900 font-[sinosans] p-8 text-6xl  h-6 " animate={{width:["0%","100%"]}} transition={{duration:2,ease:"easeOut",delay:1}}>
+
+   </motion.div>
+   <motion.div className="bg-blue-900 font-[sinosans] p-8 text-6xl  h-6 " animate={{width:["0%","100%"]}} transition={{duration:2,ease:"easeOut",delay:1.2}}>
+
+   </motion.div>
+   <motion.div className="bg-blue-900 font-[sinosans] p-8 text-6xl  h-6 " animate={{width:["0%","100%"]}} transition={{duration:2,ease:"easeOut",delay:1.4}}>
+
+   </motion.div>
+   
+
+
    </>
   );
 }

@@ -1,8 +1,10 @@
+import * as motion from "motion/react-client";
+
 const menus = ["Home","About","Home","Home"];
 const Header =()=>{
     return(
         <div className="flex justify-center ">
-        <header className=" fixed top-0  w-2/3 my-8  h-14 rounded-3xl  bg-yellow-300   backdrop-blur-lg  ">
+        <motion.header className=" fixed top-0  w-2/3 my-8  h-14 rounded-3xl  bg-yellow-300   backdrop-blur-lg  " initial={{x:0}} >
             <nav className="text-center text-2xl flex justify-evenly items-center py-1 ">
                 {
                     menus.map((menu: string, i:number) => {
@@ -14,7 +16,7 @@ const Header =()=>{
                     })
                 }
             </nav>
-        </header>
+        </motion.header>
         </div>
     )
 }
