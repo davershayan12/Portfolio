@@ -1,21 +1,21 @@
-import ParticleWrapper from "@/components/ParticleWrapper";
-import Hero from "@/components/Hero";
-import ProjectsGrid from "@/components/ProjectsGrid";
-import AboutCard from "@/components/AboutCard";
-import TechStack from "@/components/TechStack";
-import ContactFooter from "@/components/ContactFooter";
+import Navbar from "@/components/Navbar";
+import HeroNew from "@/components/HeroNew";
+import CtaBand from "@/components/CtaBand";
+import FooterBar from "@/components/FooterBar";
+import GsapTimeline from "@/components/GsapTimeline";
+import Education from "@/components/Education";
 
 export default function Home() {
   return (
     <>
-      <ParticleWrapper />
+      <Navbar />
       <main>
-        <Hero />
-        <AboutCard />
-        <ProjectsGrid />
-        <TechStack />
-        <ContactFooter />
+        <HeroNew />
+        <Education />
+        <CtaBand />
       </main>
+      <FooterBar />
+      <GsapTimeline />
     </>
   );
 }
