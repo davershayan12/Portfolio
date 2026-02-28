@@ -33,8 +33,8 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#education" className="navbar__link" style={{ fontFamily: "var(--font-label)", fontSize: "0.7rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--text-light)" }}>
-              Education
+            <a href="#work" className="navbar__link" style={{ fontFamily: "var(--font-label)", fontSize: "0.7rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--text-light)" }}>
+              Projects
             </a>
           </li>
         </ul>
