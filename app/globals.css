@@ -1,37 +1,30 @@
 /* ── Premium Editorial Theme — Global Styles ── */
 
 :root {
-  /* Colors — Deep Premium Theme */
+  /* Colors — Dark Theme */
   --primary-red: #ff2546;
   --accent-blue: #2b5fff;
-  --background: #060914;
-  --muted-bg: #0d111e;
-  --text-light: #f8f9fa;
-  --text-dark: #e9ecef;
-  --text-muted: #adb5bd;
-  --text-dim: #6c757d;
-  --border-light: rgba(255, 255, 255, 0.05);
-  --border-card: rgba(255, 255, 255, 0.08);
-  --glass-bg: rgba(13, 17, 30, 0.6);
-  --glass-border: rgba(255, 255, 255, 0.1);
+  --background: #0b0f1d;
+  --muted-bg: #12172d;
+  --text-light: #ffffff;
+  --text-dark: #cdd1e8;
+  --text-muted: #8490b0;
+  --border-light: #1e2847;
+  --border-card: #2a3555;
 
-  /* Typography - Using system-ui for a clean, modern look if custom fonts aren't available */
-  --font-display: 'Playfair Display', 'Crimson Pro', serif;
-  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
+  /* Typography */
+  --font-display: var(--font-playfair), 'Georgia', serif;
+  --font-body: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-label: var(--font-montserrat), 'Inter', sans-serif;
 
-  /* Spacing & Layout */
-  --container-max: 1320px;
-  --gutter: clamp(1.5rem, 5vw, 4rem);
-  --section-padding: clamp(4rem, 10vw, 10rem);
-  
-  /* Effects */
-  --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.2);
-  --shadow-lg: 0 12px 24px rgba(0,0,0,0.3);
-  --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 24px;
+  /* Spacing */
+  --space-unit: 8px;
+  --container-max: 1200px;
+  --gutter: 24px;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
 }
 
 *, *::before, *::after {
